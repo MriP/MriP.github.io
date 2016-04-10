@@ -1,0 +1,76 @@
+		* {
+  			box-sizing: border-box;
+  			margin: 0;
+  			padding: 0;
+		}
+		h1 {
+  			margin-bottom: 15px;
+  			text-align: center;
+		}
+		.row {
+  			width: 100%;
+		}
+		p {
+			border: 2px solid black;
+			background-color: #808080;
+			margin-right: 5px;
+			margin-left: 5px;
+			margin-bottom: 10px;
+			margin-top: 0px;
+			font-family: Verdana;
+			color: black;
+			padding: 20px;
+			text-align: justify;
+		}
+		/** DESKTOPS **/
+		@media (min-width: 992px) {
+			.col-lg-4 {
+    			width: 33.33%;
+    			float: left;
+    			height: 50%;
+			}
+		}
+		/** TABLETS **/
+		@media (min-width: 768px) and (max-width: 991px) {
+			.col-md-6 {
+    			width: 50%;
+    			float: left;
+  			}
+  			.col-md-12 {
+    			width: 100%;
+    			float: left;
+  			}
+  		}
+  		#chickenbg {
+  			position: relative;
+  			background-color: #ff9999;
+  			font-family:Georgia;
+  			border: 2px black solid;
+  			padding: 10px;
+  			float: right;
+  			margin: 5px;
+  			margin-top: 0px;
+		}
+		#muttonbg {
+			position: relative;
+  			background-color: #DEB887;
+  			font-family:Georgia;
+  			border: 2px black solid;
+  			padding: 10px;
+  			float: right;
+  			margin: 5px;
+  			margin-top: 0px;
+		}
+		#sushibg {
+			position: relative;
+  			background-color: #ffff66;
+  			font-family:Georgia;
+  			border: 2px black solid;
+  			padding: 10px;
+  			float: right;
+  			margin: 5px;
+  			margin-top: 0px;
+		}
+		#parastyle	{
+			padding-top: 12%;
+		}
